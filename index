@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Ten Khalid Songs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top Ten Khalid Songs</h1>
+        <p>Welcome to our website dedicated to the top ten songs by Khalid! Here, you'll find a list of some of Khalid's best songs, along with information about each one. Whether you're a long-time fan or just discovering Khalid's music, we hope you enjoy exploring his top hits.</p>
+        <p>Check back often as we update our list to include Khalid's latest releases and fan favorites. Feel free to explore our site and discover more about Khalid's music!</p>
+    </div>
+</body>
+</html>
