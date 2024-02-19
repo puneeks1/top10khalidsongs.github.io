@@ -12,26 +12,100 @@
             padding: 0;
             background-color: #f0f0f0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+        header {
+            background-color: #333;
+            color: #fff;
             text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
         }
         h1 {
-            color: #333;
+            text-align: center;
         }
-        p {
-            color: #666;
-            line-height: 1.6;
+        .song {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: #fff;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Top Ten Khalid Songs</h1>
-        <p>Welcome to our website dedicated to the top ten songs by Khalid! Here, you'll find a list of some of Khalid's best songs, along with information about each one. Whether you're a long-time fan or just discovering Khalid's music, we hope you enjoy exploring his top hits.</p>
-        <p>Check back often as we update our list to include Khalid's latest releases and fan favorites. Feel free to explore our site and discover more about Khalid's music!</p>
+    </header>
+    <nav>
+        <a href="#top-songs">Top Songs</a>
+        <a href="#about-khalid">About Khalid</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="top-songs">
+            <h2>Top Songs</h2>
+            <div class="song">
+                <h3>1. Location</h3>
+                <p>Lyrics: <em>"Send me your location, let's focus on communicating"</em></p>
+            </div>
+            <div class="song">
+                <h3>2. Better</h3>
+                <p>Lyrics: <em>"Love to see you shine in the night like the diamond you are"</em></p>
+            </div>
+            <div class="song">
+                <h3>3. Young Dumb & Broke</h3>
+                <p>Lyrics: <em>"So you're still thinking of me, just like I know you should"</em></p>
+            </div>
+            <div class="song">
+                <h3>4. Talk</h3>
+                <p>Lyrics: <em>"Can't we just talk? Talk about where we're goin'"</em></p>
+            </div>
+            <div class="song">
+                <h3>5. Saturday Nights</h3>
+                <p>Lyrics: <em>"Saturday nights, blueberry cigarillos, swishers make my throat hurt"</em></p>
+            </div>
+            <div class="song">
+                <h3>6. Saved</h3>
+                <p>Lyrics: <em>" 'Cause I can't be without you, so, tell me, babe"</em></p>
+            </div>
+            <div class="song">
+                <h3>7. OTW</h3>
+                <p>Lyrics: <em>"Put it in drive, I'll be outside, I'll be on the way"</em></p>
+            </div>
+            <div class="song">
+                <h3>8. My Bad</h3>
+                <p>Lyrics: <em>"Said, my bad, wasn't tryna make you mad"</em></p>
+            </div>
+            <div class="song">
+                <h3>9. American Teen</h3>
+                <p>Lyrics: <em>"Living a good life full of good vibes, my eyes are on the gray skies"</em></p>
+            </div>
+            <div class="song">
+                <h3>10. 8TEEN</h3>
+                <p>Lyrics: <em>"Got nothin' on my mind but you"</em></p>
+            </div>
+        </section>
+        <section id="about-khalid">
+            <h2>About Khalid</h2>
+            <p>Khalid Donnel Robinson, known mononymously as Khalid, is an American singer and songwriter. He is signed to Right Hand Music Group and RCA Records.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your-email@example.com</p>
+        </section>
     </div>
 </body>
 </html>
